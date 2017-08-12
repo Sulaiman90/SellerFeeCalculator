@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- for portrait mode-->
+    <dimen name="activity_layout_height">56dp</dimen>
+    <!-- for landscape mode-->
+    <dimen name="activity_land_layout_height">30dp</dimen>
+
+    <dimen name="activity_text_size">20dp</dimen>
+
+    <dimen name="info_view_padding_left">4dp</dimen>
+</resources>
