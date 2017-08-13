@@ -87,6 +87,7 @@
                     android:layout_weight="1"
                     android:hint="@string/defaultValue"
                     android:inputType="numberDecimal"
+                    style="@style/input__txt_max_length"
                     android:textAppearance="?android:attr/textAppearanceLarge"/>
 
             </LinearLayout>
@@ -114,6 +115,7 @@
                     android:layout_weight="1"
                     android:hint="@string/defaultValue"
                     android:inputType="numberDecimal"
+                    style="@style/input__txt_max_length"
                     android:textAppearance="?android:attr/textAppearanceLarge"/>
 
             </LinearLayout>

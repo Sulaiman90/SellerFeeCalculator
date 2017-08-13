@@ -80,6 +80,7 @@
             android:layout_weight="1"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:hint="@string/defaultValue"
+            style="@style/input__txt_max_length"
             android:id="@+id/salePrice" />
 
     </LinearLayout>
@@ -112,6 +113,7 @@
             android:layout_weight="1"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:hint="@string/defaultValue"
+            style="@style/input__txt_max_length"
             android:id="@+id/shipPrice" />
 
     </LinearLayout>

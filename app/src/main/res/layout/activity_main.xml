@@ -78,7 +78,7 @@
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
                 android:hint="@string/defaultValue"
-                style="@style/info_text_padding_left"
+                style="@style/input__txt_max_length"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/salePrice" />
 
@@ -110,7 +110,7 @@
                 android:inputType="numberDecimal"
                 android:layout_weight="1"
                 android:hint="@string/defaultValue"
-                style="@style/info_text_padding_left"
+                style="@style/input__txt_max_length"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/shipPrice" />
 

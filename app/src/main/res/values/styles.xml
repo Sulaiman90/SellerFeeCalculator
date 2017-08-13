@@ -11,5 +11,9 @@
     <style name="info_text_padding_left">
         <item name="android:paddingLeft">@dimen/info_view_padding_left</item>
     </style>
+    
+    <style name="input__txt_max_length">
+        <item name="android:maxLength">10</item>
+    </style>
 
 </resources>
