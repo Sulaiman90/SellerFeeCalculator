@@ -23,9 +23,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -142,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         totalFeeText= (TextView)findViewById(R.id.totalFee);
         payoutText= (TextView)findViewById(R.id.payoutFee);
 
-        ArrayAdapter<String> dataAdapter= new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,mainItems);
+        ArrayAdapter<String> dataAdapter= new ArrayAdapter<>(this,android.R.layout.simple_spinner_item,mainItems);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(dataAdapter);
         spinner.setOnItemSelectedListener(this);
@@ -205,7 +202,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             spinner2.setVisibility(View.VISIBLE);
             subItems = new String[] {};
             subItems= items[pos];
-            ArrayAdapter<String> dataAdapter= new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,subItems);
+            ArrayAdapter<String> dataAdapter= new ArrayAdapter<>(this,android.R.layout.simple_spinner_item,subItems);
             dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             spinner2.setAdapter(dataAdapter);
             select();
